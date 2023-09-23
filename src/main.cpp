@@ -283,16 +283,7 @@ void led_out(int led_num,double color[4]){
     ledcWrite(0,color[0]*color[3]);
     ledcWrite(1,color[1]*color[3]);
     ledcWrite(2,color[2]*color[3]);
-    
-    ledcWrite(3,color[0]*color[3]);
-    ledcWrite(4,color[1]*color[3]);
-    ledcWrite(5,color[2]*color[3]);
   }else if(led_num==1){
-    
-    ledcWrite(0,color[0]*color[3]);
-    ledcWrite(1,color[1]*color[3]);
-    ledcWrite(2,color[2]*color[3]);
-    
     ledcWrite(3,color[0]*color[3]);
     ledcWrite(4,color[1]*color[3]);
     ledcWrite(5,color[2]*color[3]);
